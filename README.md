@@ -124,10 +124,10 @@ cisco-data-bridge-domain-index/
 - **Automated Updates**  
   - Integrate continuous integration pipelines to detect changes in doc/spec files, re-chunk them, and refresh indexes automatically.
 
-
 ## License
 
 This project is licensed under the [Apache License 2.0](LICENSE). You are free to use, modify, and distribute the code, subject to the terms and conditions detailed in the Apache 2.0 license. This includes attribution requirements and ensuring that any modifications are properly documented. For more information, please refer to the full [license text](LICENSE).
+
 ---
 
 **Note**: This repository focuses on constructing and maintaining the domain + doc indexes. The actual query flow and function-calling logic takes place in the **[cisco-data-bridge-ai-agent](https://github.com/APO-SRE/cisco-data-bridge-ai-agent)** project, which consumes these indexes to deliver contextually rich AI-driven responses.
