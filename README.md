@@ -3,7 +3,8 @@
 This repository creates specialized vector databases (indexes) to support the **[Cisco Data Bridge AI Agent](https://github.com/APO-SRE/cisco-data-bridge-ai-agent)** by providing it with relevant domain information and detailed API documentation for various Cisco platforms. The solution is designed to work with multiple indexing backends (e.g., **Chroma**, **Elastic**, or **AI-Search**), enabling both on-prem and hybrid AI deployments.
 
 
-This repo is part of the [Cisco Data Bridge Project Suite][cisco-suite].
+This repo is part of the [Cisco Data Bridge Project Suite](https://github.com/APO-SRE/cisco-data-bridge-project-suite).
+
 
 
 ## Overview
@@ -137,6 +138,3 @@ This project is licensed under the [Apache License 2.0](LICENSE). You are free t
 **Note**: This repository focuses on constructing and maintaining the domain + doc indexes. The actual query flow and function-calling logic takes place in the **[cisco-data-bridge-ai-agent](https://github.com/APO-SRE/cisco-data-bridge-ai-agent)** project, which consumes these indexes to deliver contextually rich AI-driven responses.
 ```
 
-
-<!-- Reference Definitions -->
-[cisco-suite]: https://github.com/APO-SRE/cisco-data-bridge-project-suite
