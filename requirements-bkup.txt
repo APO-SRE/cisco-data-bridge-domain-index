@@ -1,0 +1,29 @@
+################################################################################
+## cisco-data-bridge-domain-index/requirements.txt
+## Copyright (c) 2025 Jeff Teeter, Ph.D.
+## Cisco Systems, Inc.
+## Licensed under the Apache License, Version 2.0 (see LICENSE)
+## Distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.
+################################################################################
+
+openai==0.27.0
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Azure Cognitive Search
+--pre
+azure-search-documents==11.6.0b9
+
+# Elasticsearch
+elasticsearch==8.8.0
+
+# ChromaDB (compatible with Pydantic >= 2.0)
+chromadb==0.6.3
+
+# Chunking, text processing
+nltk==3.8.1
+pydantic==2.7.4
+langchain==0.3.0
+fastapi>=0.95.2
+tenacity==8.5.0
+
